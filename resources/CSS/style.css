@@ -1,4 +1,12 @@
 /*CSS Document */
+/* "Tamming" Box Model With Reset */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /* Universal styles */
 html {
@@ -101,7 +109,7 @@ nav ul {
 .product {
   width: 30%;
 }
- 
+
 .images {
   display: flex;
   justify-content: center;
